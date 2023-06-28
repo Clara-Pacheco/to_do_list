@@ -1,0 +1,12 @@
+.header {
+  min-width: 114rem;
+  height: 20rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--gray-700);
+
+ position: relative;
+}

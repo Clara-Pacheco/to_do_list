@@ -1,0 +1,58 @@
+.task {
+  width: 73.6rem;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 0.75rem;
+
+}
+
+.task p {
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 140%;
+  color: var(--gray-100);
+  margin-right: auto;
+  
+}
+
+p.textCompleted {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+/* margin-right: auto --> Vai fazer com que o texto fique o máximo para a esquerda e o botão de
+/ deletar, o máximo para a direita. */
+
+.checkContainer {
+  min-width: 2.4rem;
+  height: 2.4rem;
+  background: none;
+  border: none;
+}
+
+.checkContainer div{
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--blue);
+
+  border-radius: 50%;
+
+}
+
+/* A div com border-radius ficouum pouco achatada; para resolver isso,
+colocamos no container da div um min-width ao invés de width.*/
+
+.trashIconButton {
+  background: none;
+  border: none;
+  color: var(--gray-300);
+}

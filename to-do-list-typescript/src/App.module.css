@@ -1,0 +1,71 @@
+.newTaskForm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  left: 50%;
+  top: 17.3rem;
+  transform: translate(-50%);
+  max-width: 73.6rem;
+  height: 5.4rem;
+}
+
+.input {
+  display: flex;
+  justify-contet: center;
+  align-items: center;
+
+  width: 63.8rem;
+  height: 5.4rem;
+  border-radius: 8px;
+  border: none;
+
+  padding: 1.6rem;
+
+  background-color: var(--gray-500);
+  color: var(--white);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+
+  outline: var(--darkBlue);
+}
+
+.input placeholder {
+  color: var(--gray-300)
+}
+
+.button {
+  display: flex;
+  justify-contet: center;
+  align-items: center;
+
+  width: 9rem;
+  height: 5.4rem;
+  border-radius: 8px;
+  border:none;
+
+  padding: 12px;
+  gap: 8px;
+
+  background-color: var(--blueDark);
+  color: var(--gray-100);
+
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+footer { 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+
+  color: var(--gray-300);
+}
